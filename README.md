@@ -6,7 +6,7 @@ SWIFT (BIC) Code Tool for validating
 	sc = SWIFTCodeTool::SWIFT.new('deutdeff')
 
 	puts sc.code
-	=> DEUTDEFF
+	=> "DEUTDEFF"
 
 	puts sc.bank_code
 	=> "DEUT"
@@ -24,4 +24,4 @@ SWIFT (BIC) Code Tool for validating
 	=> true
 
 	puts SWIFTCodeTool::SWIFT.valid?('DEUT DE MU', 'de')
-	=>true
+	=> true
